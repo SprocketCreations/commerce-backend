@@ -4,6 +4,8 @@ const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
+// TODO: Set up foreign relationships between models here.
+
 // Products belongsTo Category
 
 // Categories have many Products
