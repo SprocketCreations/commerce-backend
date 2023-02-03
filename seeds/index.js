@@ -6,19 +6,19 @@ const seedProductTags = require('./product-tag-seeds');
 const sequelize = require('../config/connection');
 
 const seedAll = async () => {
-  await sequelize.sync({ force: true });
   console.log('\n----- DATABASE SYNCED -----\n');
-  await seedCategories();
+  await sequelize.sync({ force: true });
   console.log('\n----- CATEGORIES SEEDED -----\n');
+  await seedCategories();
 
-  await seedProducts();
   console.log('\n----- PRODUCTS SEEDED -----\n');
+  await seedProducts();
 
-  await seedTags();
   console.log('\n----- TAGS SEEDED -----\n');
+  await seedTags();
 
-  await seedProductTags();
   console.log('\n----- PRODUCT TAGS SEEDED -----\n');
+  await seedProductTags();
 
   process.exit(0);
 };
