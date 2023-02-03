@@ -29,10 +29,6 @@ Product.init({
 			isNumeric: true,
 		},
 	},
-	categoryId: {
-		type: DataTypes.INTEGER,
-		// TODO: Foreign Key
-	},
 }, {
 	sequelize,
 	timestamps: false,
