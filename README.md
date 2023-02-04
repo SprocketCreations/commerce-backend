@@ -19,7 +19,7 @@ This is node based ecommerce backend that provides full CRUD access to a mySQL d
 
 ## Demo
 
-Watch the [demonstration video]() hosted on google drive.
+Watch the [demonstration video](https://drive.google.com/file/d/1k7ijA3QReO920AIr_k1yzVwUufBXxL1c/view?usp=share_link) hosted on google drive.
 
 ## Installation
 
